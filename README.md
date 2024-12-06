@@ -10,9 +10,9 @@ Or in Javascript
 
 ```
 
-crypto.createHash('sha256').update("abc12345").digest('hex')
-6ca13d52ca70c883e0f0bb101e425a89e8624de51db2d2392593af6a84118090
-ef63adb4a33117f6bb6395be441b5bb254de93275b26ffd35c19010c2c3cb82e
+>crypto.createHash('sha256').update("hello world").digest('hex')
+
+b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9
 ```
 
 Simple example of how to use is in `aggsha256.js`
