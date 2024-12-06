@@ -14,3 +14,5 @@ crypto.createHash('sha256').update("abc12345").digest('hex')
 6ca13d52ca70c883e0f0bb101e425a89e8624de51db2d2392593af6a84118090
 ef63adb4a33117f6bb6395be441b5bb254de93275b26ffd35c19010c2c3cb82e
 ```
+
+Simple example of how to use is in `aggsha256.js`
