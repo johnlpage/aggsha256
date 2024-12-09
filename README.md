@@ -1,6 +1,7 @@
 The Challenge here is to implement sha256 hashing in MongoDB aggregation, this is not a native primitive.
 
 I previously did this as part of a bitcoin miner in aggreagtion so this is extracting it as a standalone function.
+That included fixing a bunch of bugs that it has in the general case and also prepating the data using aggregation rather just running the hash rounds.
 
 This is convert the following from SQL `
 
